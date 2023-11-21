@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link rel="stylesheet" href="app.css" />
+    <script src="app.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,900;1,400;1,800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Age calculator app</title>
+  </head>
+  <body>
+    <main>
+      <form class="form" action="">
+        <div class="inputs1">
+          <h2>Day</h2>
+          <input class="inputDay" type="number" placeholder="DD" />
+          <p class="infodays"></p>
+        </div>
+        <div class="inputs2">
+          <h2>Month</h2>
+          <input class="inputMonth" type="number" placeholder="MM" />
+          <p class="infoMonths"></p>
+        </div>
+        <div class="inputs3">
+          <h2>Year</h2>
+          <input class="inputYears" type="number" placeholder="YYYY" />
+          <p class="infoYears"></p>
+        </div>
+      </form>
+      <section class="underline-container">
+        <span class="underline"></span>
+        <section class="btn">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="46"
+            height="44"
+            viewBox="0 0 46 44"
+          >
+            <g fill="" stroke="#f1faee" stroke-width="2">
+              <path
+                d="M1 22.019C8.333 21.686 23 25.616 23 44M23 44V0M45 22.019C37.667 21.686 23 25.616 23 44"
+              />
+            </g>
+          </svg>
+        </section>
+      </section>
+      <section class="infoOutPuts">
+        <div class="hold">
+          <p class="pyears">--</p>
+          <h1 class="years">Years</h1>
+        </div>
+        <div class="hold">
+          <p class="pmonths">--</p>
+          <h1 class="months">Months</h1>
+        </div>
+        <div class="hold">
+          <p class="pdays">--</p>
+          <h1 class="days">Days</h1>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
